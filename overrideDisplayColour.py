@@ -19,4 +19,6 @@ for i in selection:
     n= cmds.listRelatives(i, shapes=True)
     print n
     for i in n:
-        setRGBColor(i, color = (1,1,1))
+        setRGBColor(i, color = (102/255,1,1))
+
+
